@@ -41,7 +41,7 @@ def extract_financial_data(data, folder_name):
         'net_income': find_value(ic_data, 'NetIncomeLoss'),
         'revenues': find_value(ic_data, 'Revenues'),
         'cost_of_services': find_value(ic_data, 'CostOfServices'),
-        'operating_income_loss': find_value(ic_data, 'OperatingIncomeLoss'),
+
         'earnings_per_share_basic': find_value(ic_data, 'EarningsPerShareBasic'),
         'cost_of_revenue': find_value(ic_data, 'CostOfRevenue'), # ...
         'gross_profit': find_value(ic_data, 'GrossProfit'), # ...
@@ -52,14 +52,13 @@ def extract_financial_data(data, folder_name):
         'total_liabilities': find_value(bs_data, 'Liabilities'),
         'stock_holders_equity': find_value(bs_data, 'StockholdersEquity'),
         'cash_and_equivalents': find_value(bs_data, 'CashAndCashEquivalentsAtCarryingValue'),
-        'property_plant_equipment_net': find_value(bs_data, 'PropertyPlantAndEquipmentNet'),
+
         'receivables_net': find_value(bs_data, 'ReceivablesNetCurrent'), # ---
         'inventory': find_value(bs_data, 'InventoryNet'),
         'current_assets': find_value(bs_data, 'AssetsCurrent'),
         'current_debt': find_value(bs_data, 'DebtCurrent'),
-        'current_liabilities': find_value(bs_data, 'LiabilitiesCurrent'),
         'long_term_debt': find_value(bs_data, 'LongTermDebtCurrent'), # ---
-        'net_cash_from_operating_activities': find_value(cf_data,'NetCashProvidedByUsedInOperatingActivitiesContinuingOperations'),
+
         'net_cash_from_investing_activities': find_value(cf_data,'NetCashProvidedByUsedInInvestingActivitiesContinuingOperations'),
         'net_cash_from_financing_activities': find_value(cf_data,'NetCashProvidedByUsedInFinancingActivitiesContinuingOperations'),
         'operating_cash_flow': find_value(cf_data, 'NetCashProvidedByUsedInOperatingActivitiesContinuingOperations'),
@@ -113,7 +112,7 @@ def load_json_files(conn, base_directory):
                                 net_income,
                                 revenues,
                                 cost_of_services,
-                                operating_income_loss,
+
                                 earnings_per_share_basic,
                                 cost_of_revenue,
                                 gross_profit,
@@ -124,14 +123,13 @@ def load_json_files(conn, base_directory):
                                 total_liabilities,
                                 stock_holders_equity,
                                 cash_and_equivalents,
-                                property_plant_equipment_net,
+
                                 receivables_net,
                                 inventory,
                                 current_assets,
                                 current_debt,
-                                current_liabilities,
                                 long_term_debt,
-                                net_cash_from_operating_activities,
+
                                 net_cash_from_investing_activities,
                                 net_cash_from_financing_activities,
                                 operating_cash_flow,
@@ -145,7 +143,7 @@ def load_json_files(conn, base_directory):
                                 %(net_income)s, 
                                 %(revenues)s, 
                                 %(cost_of_services)s, 
-                                %(operating_income_loss)s, 
+
                                 %(earnings_per_share_basic)s, 
                                 %(cost_of_revenue)s, 
                                 %(gross_profit)s, 
@@ -156,14 +154,14 @@ def load_json_files(conn, base_directory):
                                 %(total_liabilities)s, 
                                 %(stock_holders_equity)s, 
                                 %(cash_and_equivalents)s, 
-                                %(property_plant_equipment_net)s, 
+
                                 %(receivables_net)s, 
                                 %(inventory)s, 
                                 %(current_assets)s, 
                                 %(current_debt)s, 
-                                %(current_liabilities)s, 
+
                                 %(long_term_debt)s, 
-                                %(net_cash_from_operating_activities)s, 
+
                                 %(net_cash_from_investing_activities)s, 
                                 %(net_cash_from_financing_activities)s, 
                                 %(operating_cash_flow)s, 

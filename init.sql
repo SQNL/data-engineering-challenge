@@ -16,7 +16,6 @@ CREATE TABLE IF NOT EXISTS financial_data (
     total_liabilities NUMERIC,
     stock_holders_equity NUMERIC, 
     cash_and_equivalents NUMERIC,
-    net_cash_from_operating_activities NUMERIC,
     net_cash_from_investing_activities NUMERIC,
     net_cash_from_financing_activities NUMERIC,
     operating_cash_flow NUMERIC,
@@ -27,7 +26,6 @@ CREATE TABLE IF NOT EXISTS financial_data (
     inventory NUMERIC,
     current_assets NUMERIC,
     current_debt NUMERIC,
-    current_liabilities NUMERIC,
     long_term_debt NUMERIC,
     earnings_per_share NUMERIC,
     gross_profit NUMERIC,
@@ -65,7 +63,6 @@ CREATE TABLE balance_sheets (
     property_plant_equipment_net NUMERIC,
     total_assets NUMERIC,
     current_debt NUMERIC,
-    current_liabilities NUMERIC,
     stock_holders_equity NUMERIC, 
     long_term_debt NUMERIC,
     total_liabilities NUMERIC
@@ -97,7 +94,6 @@ CREATE TABLE cash_flows (
     operating_cash_flow NUMERIC,
     capital_expenditures NUMERIC,
     depreciation_and_amortization NUMERIC,
-    net_cash_from_operating_activities NUMERIC,
     net_cash_from_investing_activities NUMERIC,
     net_cash_from_financing_activities NUMERIC
 );
