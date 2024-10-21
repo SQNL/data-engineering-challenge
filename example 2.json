@@ -1,0 +1,501 @@
+{
+    "startDate": "2017-01-01",
+    "endDate": "2017-06-30",
+    "year": "2017",
+    "quarter": "Q2",
+    "symbol": "XOM",
+    "data": {
+        "bs": [
+            {
+                "label": "",
+                "concept": "CashAndCashEquivalentsAtCarryingValue",
+                "unit": "usd",
+                "value": 4042000000
+            },
+            {
+                "label": "",
+                "concept": "ReceivablesNetCurrent",
+                "unit": "usd",
+                "value": 21289000000
+            },
+            {
+                "label": "",
+                "concept": "EnergyRelatedInventory",
+                "unit": "usd",
+                "value": 11135000000
+            },
+            {
+                "label": "",
+                "concept": "InventoryPartsAndComponentsNetOfReserves",
+                "unit": "usd",
+                "value": 4170000000
+            },
+            {
+                "label": "",
+                "concept": "OtherAssetsCurrent",
+                "unit": "usd",
+                "value": 1544000000
+            },
+            {
+                "label": "",
+                "concept": "AssetsCurrent",
+                "unit": "usd",
+                "value": 42180000000
+            },
+            {
+                "label": "",
+                "concept": "LongTermInvestmentsAndReceivablesNet",
+                "unit": "usd",
+                "value": 37719000000
+            },
+            {
+                "label": "",
+                "concept": "PropertyPlantAndEquipmentNet",
+                "unit": "usd",
+                "value": 252987000000
+            },
+            {
+                "label": "",
+                "concept": "OtherAssetsNoncurrent",
+                "unit": "usd",
+                "value": 10126000000
+            },
+            {
+                "label": "",
+                "concept": "Assets",
+                "unit": "usd",
+                "value": 343012000000
+            },
+            {
+                "label": "",
+                "concept": "DebtCurrent",
+                "unit": "usd",
+                "value": 17185000000
+            },
+            {
+                "label": "",
+                "concept": "AccountsPayableAndAccruedLiabilitiesCurrent",
+                "unit": "usd",
+                "value": 31100000000
+            },
+            {
+                "label": "",
+                "concept": "AccruedIncomeTaxesCurrent",
+                "unit": "usd",
+                "value": 2664000000
+            },
+            {
+                "label": "",
+                "concept": "LiabilitiesCurrent",
+                "unit": "usd",
+                "value": 50949000000
+            },
+            {
+                "label": "",
+                "concept": "LongTermDebtAndCapitalLeaseObligations",
+                "unit": "usd",
+                "value": 24750000000
+            },
+            {
+                "label": "",
+                "concept": "PensionAndOtherPostretirementDefinedBenefitPlansLiabilitiesNoncurrent",
+                "unit": "usd",
+                "value": 20778000000
+            },
+            {
+                "label": "",
+                "concept": "DeferredTaxLiabilitiesNoncurrent",
+                "unit": "usd",
+                "value": 34585000000
+            },
+            {
+                "label": "",
+                "concept": "DueToRelatedPartiesNoncurrent",
+                "unit": "usd",
+                "value": 4954000000
+            },
+            {
+                "label": "",
+                "concept": "OtherLiabilitiesNoncurrent",
+                "unit": "usd",
+                "value": 21158000000
+            },
+            {
+                "label": "",
+                "concept": "Liabilities",
+                "unit": "usd",
+                "value": 157174000000
+            },
+            {
+                "label": "",
+                "concept": "CommitmentsAndContingencies",
+                "unit": "usd",
+                "value": "N/A"
+            },
+            {
+                "label": "",
+                "concept": "CommonStockValue",
+                "unit": "usd",
+                "value": 14617000000
+            },
+            {
+                "label": "",
+                "concept": "RetainedEarningsAccumulatedDeficit",
+                "unit": "usd",
+                "value": 408768000000
+            },
+            {
+                "label": "",
+                "concept": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+                "unit": "usd",
+                "value": -18902000000
+            },
+            {
+                "label": "",
+                "concept": "TreasuryStockValue",
+                "unit": "usd",
+                "value": 225305000000
+            },
+            {
+                "label": "",
+                "concept": "StockholdersEquity",
+                "unit": "usd",
+                "value": 179178000000
+            },
+            {
+                "label": "",
+                "concept": "MinorityInterest",
+                "unit": "usd",
+                "value": 6660000000
+            },
+            {
+                "label": "",
+                "concept": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+                "unit": "usd",
+                "value": 185838000000
+            },
+            {
+                "label": "",
+                "concept": "LiabilitiesAndStockholdersEquity",
+                "unit": "usd",
+                "value": 343012000000
+            }
+        ],
+        "cf": [
+            {
+                "label": "",
+                "concept": "ProfitLoss",
+                "unit": "usd",
+                "value": 7354000000
+            },
+            {
+                "label": "",
+                "concept": "DepreciationDepletionAndAmortization",
+                "unit": "usd",
+                "value": 9171000000
+            },
+            {
+                "label": "",
+                "concept": "IncreaseDecreaseInOtherCurrentAssetsAndLiabilitiesNet",
+                "unit": "usd",
+                "value": 228000000
+            },
+            {
+                "label": "",
+                "concept": "IncreaseDecreaseInOtherOperatingCapitalNet",
+                "unit": "usd",
+                "value": 1177000000
+            },
+            {
+                "label": "",
+                "concept": "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+                "unit": "usd",
+                "value": 15120000000
+            },
+            {
+                "label": "",
+                "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+                "unit": "usd",
+                "value": 5988000000
+            },
+            {
+                "label": "",
+                "concept": "ProceedsFromSalesOfBusinessAffiliateAndProductiveAssets",
+                "unit": "usd",
+                "value": 841000000
+            },
+            {
+                "label": "",
+                "concept": "xom:AdditionalInvestmentsAndAdvances",
+                "unit": "usd",
+                "value": 1793000000
+            },
+            {
+                "label": "",
+                "concept": "PaymentsForProceedsFromOtherInvestingActivities",
+                "unit": "usd",
+                "value": -301000000
+            },
+            {
+                "label": "",
+                "concept": "NetCashProvidedByUsedInInvestingActivitiesContinuingOperations",
+                "unit": "usd",
+                "value": -6639000000
+            },
+            {
+                "label": "",
+                "concept": "ProceedsFromIssuanceOfLongTermDebt",
+                "unit": "usd",
+                "value": 60000000
+            },
+            {
+                "label": "",
+                "concept": "ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths",
+                "unit": "usd",
+                "value": 1735000000
+            },
+            {
+                "label": "",
+                "concept": "RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths",
+                "unit": "usd",
+                "value": 2722000000
+            },
+            {
+                "label": "",
+                "concept": "ProceedsFromRepaymentsOfShortTermDebt",
+                "unit": "usd",
+                "value": -321000000
+            },
+            {
+                "label": "",
+                "concept": "PaymentsOfDividendsCommonStock",
+                "unit": "usd",
+                "value": 6423000000
+            },
+            {
+                "label": "",
+                "concept": "PaymentsOfDividendsMinorityInterest",
+                "unit": "usd",
+                "value": 91000000
+            },
+            {
+                "label": "",
+                "concept": "ProceedsFromPaymentsToMinorityShareholders",
+                "unit": "usd",
+                "value": -29000000
+            },
+            {
+                "label": "",
+                "concept": "PaymentsForRepurchaseOfCommonStock",
+                "unit": "usd",
+                "value": 514000000
+            },
+            {
+                "label": "",
+                "concept": "NetCashProvidedByUsedInFinancingActivitiesContinuingOperations",
+                "unit": "usd",
+                "value": -8305000000
+            },
+            {
+                "label": "",
+                "concept": "EffectOfExchangeRateOnCashAndCashEquivalents",
+                "unit": "usd",
+                "value": 209000000
+            },
+            {
+                "label": "",
+                "concept": "CashAndCashEquivalentsPeriodIncreaseDecrease",
+                "unit": "usd",
+                "value": 385000000
+            },
+            {
+                "label": "",
+                "concept": "IncomeTaxesPaidNet",
+                "unit": "usd",
+                "value": 3247000000
+            },
+            {
+                "label": "",
+                "concept": "InterestPaid",
+                "unit": "usd",
+                "value": 587000000
+            }
+        ],
+        "ic": [
+            {
+                "label": "",
+                "concept": "xom:SalesAndOtherOperatingRevenueIncludingSalesBasedTaxes",
+                "unit": "usd",
+                "value": 121915000000
+            },
+            {
+                "label": "",
+                "concept": "IncomeLossFromEquityMethodInvestments",
+                "unit": "usd",
+                "value": 3235000000
+            },
+            {
+                "label": "",
+                "concept": "OtherOperatingIncomeExpenseNet",
+                "unit": "usd",
+                "value": 1013000000
+            },
+            {
+                "label": "",
+                "concept": "xom:TotalRevenuesAndOtherIncome",
+                "unit": "usd",
+                "value": 126163000000
+            },
+            {
+                "label": "",
+                "concept": "xom:CrudeOilAndProductPurchases",
+                "unit": "usd",
+                "value": 60553000000
+            },
+            {
+                "label": "",
+                "concept": "xom:ProductionAndManufacturingExpenses",
+                "unit": "usd",
+                "value": 16252000000
+            },
+            {
+                "label": "",
+                "concept": "SellingGeneralAndAdministrativeExpense",
+                "unit": "usd",
+                "value": 5227000000
+            },
+            {
+                "label": "",
+                "concept": "DepreciationDepletionAndAmortization",
+                "unit": "usd",
+                "value": 9171000000
+            },
+            {
+                "label": "",
+                "concept": "ExplorationExpense",
+                "unit": "usd",
+                "value": 803000000
+            },
+            {
+                "label": "",
+                "concept": "InterestExpense",
+                "unit": "usd",
+                "value": 304000000
+            },
+            {
+                "label": "",
+                "concept": "ExciseAndSalesTaxes",
+                "unit": "usd",
+                "value": 10931000000
+            },
+            {
+                "label": "",
+                "concept": "TaxesOther",
+                "unit": "usd",
+                "value": 12848000000
+            },
+            {
+                "label": "",
+                "concept": "CostsAndExpenses",
+                "unit": "usd",
+                "value": 116089000000
+            },
+            {
+                "label": "",
+                "concept": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+                "unit": "usd",
+                "value": 10074000000
+            },
+            {
+                "label": "",
+                "concept": "IncomeTaxExpenseBenefit",
+                "unit": "usd",
+                "value": 2720000000
+            },
+            {
+                "label": "",
+                "concept": "ProfitLoss",
+                "unit": "usd",
+                "value": 7354000000
+            },
+            {
+                "label": "",
+                "concept": "NetIncomeLossAttributableToNoncontrollingInterest",
+                "unit": "usd",
+                "value": -6000000
+            },
+            {
+                "label": "",
+                "concept": "NetIncomeLoss",
+                "unit": "usd",
+                "value": 7360000000
+            },
+            {
+                "label": "",
+                "concept": "EarningsPerShareBasic",
+                "unit": "usd/shares",
+                "value": 1.73
+            },
+            {
+                "label": "",
+                "concept": "EarningsPerShareDiluted",
+                "unit": "usd/shares",
+                "value": 1.73
+            },
+            {
+                "label": "",
+                "concept": "CommonStockDividendsPerShareCashPaid",
+                "unit": "usd/shares",
+                "value": 1.52
+            },
+            {
+                "label": "",
+                "concept": "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationGainLossArisingDuringPeriodNetOfTax",
+                "unit": "usd",
+                "value": 3082000000
+            },
+            {
+                "label": "",
+                "concept": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationReclassificationAdjustmentFromAOCIRealizedUponSaleOrLiquidationNetOfTax",
+                "unit": "usd",
+                "value": -234000000
+            },
+            {
+                "label": "",
+                "concept": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax",
+                "unit": "usd",
+                "value": 184000000
+            },
+            {
+                "label": "",
+                "concept": "xom:OtherComprehensiveIncomePostretirementBenefitsRecognizedInNetPeriodicPensionCostNetOfTax",
+                "unit": "usd",
+                "value": 539000000
+            },
+            {
+                "label": "",
+                "concept": "OtherComprehensiveIncomeLossNetOfTax",
+                "unit": "usd",
+                "value": 3671000000
+            },
+            {
+                "label": "",
+                "concept": "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+                "unit": "usd",
+                "value": 11025000000
+            },
+            {
+                "label": "",
+                "concept": "ComprehensiveIncomeNetOfTaxAttributableToNoncontrollingInterest",
+                "unit": "usd",
+                "value": 328000000
+            },
+            {
+                "label": "",
+                "concept": "ComprehensiveIncomeNetOfTax",
+                "unit": "usd",
+                "value": 10697000000
+            }
+        ]
+    }
+}

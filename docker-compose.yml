@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: ${DB_NAME:-financial_db}
+      POSTGRES_USER: ${DB_USER:-admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-secretpassword}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    volumes:
+      - ./:/app
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_NAME=${DB_NAME:-financial_db}
+      - DB_USER=${DB_USER:-admin}
+      - DB_PASSWORD=${DB_PASSWORD:-secretpassword}
+    command: tail -f /dev/null
+
+volumes:
+  postgres_data:
